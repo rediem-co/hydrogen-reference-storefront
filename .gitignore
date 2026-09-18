@@ -1,0 +1,16 @@
+node_modules
+/.cache
+/build
+/dist
+/public/build
+/.mf
+.env
+.shopify
+.react-router
+
+# Personal / local env files (never commit secrets)
+.env.*
+!.env.example
+
+# TypeScript incremental build cache
+tsconfig.tsbuildinfo
